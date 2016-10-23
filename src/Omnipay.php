@@ -53,8 +53,11 @@ class Omnipay
      * @throws RuntimeException                 If no such gateway is found
      * @return GatewayInterface                 An object of class $class is created and returned
      */
-    public static function create($class, ClientInterface $httpClient = null, ServerRequestInterface $httpRequest = null)
-    {
+    public static function create(
+        $class,
+        ClientInterface $httpClient = null,
+        ServerRequestInterface $httpRequest = null
+    ) {
         if (!class_exists($class)) {
             throw new RuntimeException("Class '$class' not found");
         }
