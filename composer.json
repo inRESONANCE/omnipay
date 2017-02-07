@@ -66,36 +66,27 @@
             "homepage": "https://github.com/thephpleague/omnipay/graphs/contributors"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/inRESONANCE/omnipay-common.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/inRESONANCE/omnipay-authorizenet.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/inRESONANCE/omnipay-tests.git"
+        }
+    ],
     "require": {
-        "omnipay/2checkout": "~2.0",
-        "omnipay/authorizenet": "~2.0",
-        "omnipay/buckaroo": "~2.0",
-        "omnipay/cardsave": "~2.0",
-        "omnipay/coinbase": "~2.0",
-        "omnipay/common": "~2.3",
-        "omnipay/dummy": "~2.0",
-        "omnipay/eway": "~2.0",
-        "omnipay/firstdata": "~2.0",
-        "omnipay/gocardless": "~2.0",
-        "omnipay/manual": "~2.0",
-        "omnipay/migs": "~2.0",
-        "omnipay/mollie": "~3.0",
-        "omnipay/multisafepay": "~2.0",
-        "omnipay/netaxept": "~2.0",
-        "omnipay/netbanx": "~2.0",
-        "omnipay/payfast": "~2.0",
-        "omnipay/payflow": "~2.0",
-        "omnipay/paymentexpress": "~2.0",
-        "omnipay/paypal": "~2.0",
-        "omnipay/pin": "~2.0",
-        "omnipay/sagepay": "~2.0",
-        "omnipay/securepay": "~2.0",
-        "omnipay/stripe": "~2.0",
-        "omnipay/targetpay": "~2.0",
-        "omnipay/worldpay": "~2.0"
+
+        "omnipay/common": "dev-feature/guzzle6_symfony3_support",
+        "omnipay/authorizenet": "dev-feature/guzzle6_symfony3_support"
     },
     "require-dev": {
-        "omnipay/tests": "~2.0"
+        "omnipay/tests": "dev-develop"
     },
     "suggest": {
         "academe/omnipay-helcim": "Helcim",
