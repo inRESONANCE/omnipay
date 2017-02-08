@@ -81,8 +81,7 @@
         }
     ],
     "require": {
-        "omnipay/common": "dev-feature/guzzle6_symfony3_support",
-        "omnipay/authorizenet": "dev-feature/guzzle6_symfony3_support"
+        "omnipay/common": "dev-feature/guzzle6_symfony3_support"
     },
     "require-dev": {
         "omnipay/tests": "dev-develop"
